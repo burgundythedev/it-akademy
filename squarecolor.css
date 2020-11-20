@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.firstpart {
+    height: 100%;
+    width: 50%;
+}
+
+/* echanger les px de du witdh et height par % flex-wrap sur le carre a 4 carre/
+ astuce pour remplir un container en 3 elements de meme taille 
+ display: flex/flex direction column + inhertit sur chaque element*/
+
+.flex-item1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.column1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.flex-item3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item4 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item5 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seconpart {
+    height: 100%;
+    width: 50%;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+.flex-item6 {
+    width: 100px;
+    height: 133.3px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item7 {
+    width: 100px;
+    height: 133.3px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item8 {
+    width: 200px;
+    height: 133.3px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item9 {
+    width: 200px;
+    height: 133.3px;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div p {
+    margin: 0px;
+}

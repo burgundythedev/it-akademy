@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 800px;
+            width: 800px;
+            border: 3px solid black;
+        }
+        #left{
+            display: grid;
+
+            grid:
+            'l1 l1 '
+            'l1 l1 '
+            'l2 l3'
+            'l4 l5';
+        }
+
+        #right{
+            display: grid;
+
+            grid: 
+            'r6 r7'
+            'r8 r8' 
+            'r9 r9';
+        }
+        #left>div, #right>div{
+            height: 100%;
+        }
+
+        #l1{
+            background-color: #f44337;
+            grid-area: l1;
+        }
+        #l2{
+            background-color: #00e577;
+            grid-area: l2;
+        }
+        #l3{
+            background-color: #039ae6;
+            grid-area: l3;
+        }
+        #l4{
+            background-color: #c3185c;
+            grid-area: l4;
+        }
+        #l5{
+            background-color: #ff6f02;
+            grid-area: l5;
+        }
+
+        #r6{
+            background-color: #ffeb3d;
+            grid-area: r6;
+        }
+        #r7{
+            background-color: #ef9a9a;
+            grid-area: r7;
+        }
+        #r8{
+            background-color:  #92a3af;
+            grid-area: r8;
+        }
+        #r9{
+            background-color: #693ab8;
+            grid-area: r9;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <div id="l1"></div>
+            <div id="l2"></div>
+            <div id="l3"></div>
+            <div id="l4"></div>
+            <div id="l5"></div>
+        </div>
+        <div id="right">
+            <div id="r6"></div>
+            <div id="r7"></div>
+            <div id="r8"></div>
+            <div id="r9"></div>
+        </div>
+
+    </div>
+</body>
+</html>
